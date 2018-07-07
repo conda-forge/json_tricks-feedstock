@@ -1,7 +1,7 @@
 {% set name = "json_tricks" %}
-{% set version = "3.11.0" %}
+{% set version = "3.12.1" %}
 {% set nbuild = 0 %}
-{% set sha256 = "3ed9a9284b5452b5b8a63e02d3625ccd1f8f5cd5983ba58f65942f83d6259460" %}
+{% set sha256 = "9c01ded56150c73d909ed14305771cf1fce839b7d40f35a1ba0e62258a16d67d" %}
 
 package:
   name: {{ name|lower }}
