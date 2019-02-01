@@ -1,7 +1,7 @@
 {% set name = "json_tricks" %}
-{% set version = "3.12.2" %}
+{% set version = "3.12.4" %}
 {% set nbuild = 0 %}
-{% set sha256 = "232d216077411f44817532d0175012fd7e96497be7f888a0eaea4987281ccd2a" %}
+{% set sha256 = "781d8efa4e91a37b4f6392e72704e0843994d48bba63eeca2a931203cab806ab" %}
 
 package:
   name: {{ name|lower }}
@@ -14,7 +14,7 @@ source:
 build:
   noarch: python
   number: {{ nbuild }}
-  script: python -m pip install --no-deps --ignore-installed .
+  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
   build:
@@ -35,7 +35,7 @@ about:
   home: https://github.com/mverleg/pyjson_tricks
   license: BSD-3-Clause
   license_family: BSD
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE.txt'
+  license_file: LICENSE.txt
   summary: 'Extra features for Python''s JSON: comments, order, numpy, pandas, datetimes, and many more! Simple but customizable.'
 
   description: |
