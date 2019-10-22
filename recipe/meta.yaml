@@ -1,7 +1,6 @@
 {% set name = "json_tricks" %}
-{% set version = "3.13.1" %}
-{% set nbuild = 0 %}
-{% set sha256 = "a613ed6ba2437e53ca15e35fc78c0763d3a6b483814b5eac07ab5e5d67c52262" %}
+{% set version = "3.13.2" %}
+{% set sha256 = "2fd0d1aa2bff880120164527575dc11bba773a7edece918c54a4c14fd96be53f" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +12,7 @@ source:
 
 build:
   noarch: python
-  number: {{ nbuild }}
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps -vv"
 
 requirements:
