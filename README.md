@@ -5,7 +5,7 @@ Home: https://github.com/mverleg/pyjson_tricks
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Extra features for Python's JSON: comments, order, numpy, pandas, datetimes, and many more! Simple but customizable.
 
