@@ -5,9 +5,13 @@ Home: https://github.com/mverleg/pyjson_tricks
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/json_tricks-feedstock/blob/master/LICENSE.txt)
 
 Summary: Extra features for Python's JSON: comments, order, numpy, pandas, datetimes, and many more! Simple but customizable.
+
+Development: https://github.com/mverleg/pyjson_tricks
+
+Documentation: http://json-tricks.readthedocs.io/en/latest/
 
 The pyjson-tricks package brings several pieces of functionality to python handling of json files:
 (1) store and load numpy arrays in human-readable format;
