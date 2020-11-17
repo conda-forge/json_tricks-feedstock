@@ -1,6 +1,6 @@
 {% set name = "json_tricks" %}
-{% set version = "3.15.3" %}
-{% set sha256 = "233088c4a791a24a504cb87f1a5986bb29fd0d030dc08ecd60f21ad850a89d2d" %}
+{% set version = "3.15.4" %}
+{% set sha256 = "e371a452898e985d15a4a9f62a9d583c0228aa28af905573ca6ccac57d34f777" %}
 
 package:
   name: {{ name|lower }}
@@ -16,7 +16,7 @@ build:
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
-  build:
+  host:
     - pip
     - python
     - setuptools
