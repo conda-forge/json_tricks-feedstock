@@ -1,6 +1,6 @@
 {% set name = "json_tricks" %}
-{% set version = "3.16.0" %}
-{% set sha256 = "079430aa9adce93a387d95d8e1eeec66e5a1a8cdcc706c9871c2cebab61cce2c" %}
+{% set version = "3.16.1" %}
+{% set sha256 = "c18f3eb750e41b7d452221f8ef83e13dc69dbc92d7ae52c31675916c15e0a7fd" %}
 
 package:
   name: {{ name|lower }}
