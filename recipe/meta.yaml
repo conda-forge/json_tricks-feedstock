@@ -1,6 +1,6 @@
 {% set name = "json_tricks" %}
-{% set version = "3.16.1" %}
-{% set sha256 = "c18f3eb750e41b7d452221f8ef83e13dc69dbc92d7ae52c31675916c15e0a7fd" %}
+{% set version = "3.17.0" %}
+{% set sha256 = "2d7af42dba3dbf25af7fb12989f0042a4385f455b272db2ee91f09f525a9b285" %}
 
 package:
   name: {{ name|lower }}
@@ -52,3 +52,4 @@ about:
 extra:
   recipe-maintainers:
     - jhkennedy
+    - claydugo
