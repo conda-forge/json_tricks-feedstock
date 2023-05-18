@@ -1,11 +1,11 @@
-About json_tricks
-=================
+About json_tricks-feedstock
+===========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/json_tricks-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/mverleg/pyjson_tricks
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/json_tricks-feedstock/blob/main/LICENSE.txt)
 
 Summary: Extra features for Python's JSON: comments, order, numpy, pandas, datetimes, and many more! Simple but customizable.
 
